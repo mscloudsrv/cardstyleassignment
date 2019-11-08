@@ -1,0 +1,75 @@
+*{
+       box-sizing: border-box;
+}
+
+body {
+       background-color: #f1f1f1;
+       padding: 5px;
+       font-family: 'lato';
+     
+}
+
+.main{
+       max-width: 1000px;
+       margin: auto;
+}
+
+.mainheading {
+       font-size: 50px;
+       word-break: break-all;
+       text-align: center;
+       font-family: 'lato';
+       letter-spacing: 6px;
+       font-weight: bold;
+       text-shadow: 6px 6px 7px rgb(153, 153, 153);
+}
+       
+.container{
+      margin: 8px -16px;
+      padding: 8px;
+           
+}
+
+.container #card{width: 30%;
+      box-shadow: -6px 6px 10px gray;
+      border-radius: 10px;
+      border: groove;
+      display: inline-block;
+      margin: 1vmax;
+      padding-top: 10px;
+      padding: inherit;
+      background-color: rgb(219, 240, 229);
+      
+      
+}
+
+#card img{height: 150px;
+          width: 170px;
+          display: block;
+          margin: 0 auto;
+          padding: 10px;
+}
+#card h1{
+       text-align: center;
+       font-family: 'Oswald';
+       letter-spacing: 2pt;
+       font-size: 30px;
+}
+#card p{
+       text-align: justify;
+       padding: 10px;
+       font-family: 'Lato';
+       line-height: 20px;
+       
+}
+p+form>input[type="submit"]{
+       background-color: lawngreen;
+       padding: 10px;
+       border-radius: 10px;
+       border:2px solid rgb(95, 5, 160);
+       display: block;
+       margin: 2% ;
+       color: rgb(0, 0, 0);
+       cursor: pointer;
+       
+       }
